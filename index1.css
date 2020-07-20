@@ -1,0 +1,91 @@
+navbar-brand h2{
+    font-family: 'Lora';
+    font-weight: bold;
+    font-style: italic;
+}
+.navbar-nav a{
+    text-decoration: none;
+}
+ 
+#ourmenu{
+    margin-top: 20px;
+    text-align: center;
+    border: 5px solid silver;
+    padding: 10px;
+}
+.chiken{
+    text-align: left;
+    border: 3px solid silver;
+    padding: 10px;
+    margin-top: 20px;
+}
+#chiken{
+    text-decoration: underline;
+    text-align: center;
+}
+.beaf{
+    margin-top: 20px;
+    text-align: left;
+    border: 3px solid silver;
+    padding: 10px;
+}
+#beaf{
+    text-decoration: underline;
+    text-align: center;
+}
+.sushi{
+    margin-top: 20px;
+    text-align: left;
+    border: 3px solid silver;
+    padding: 10px;
+
+}
+#sushi{
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+
+
+@media(min-width:1200px){
+    #ourmenu{
+        width: 15%;
+        margin-left: 470px;
+       
+    }
+    
+    
+
+}
+/*medium Devices*/
+@media(min-width:992px) and (max-width:1199px){
+
+    #ourmenu{
+        width: 15%;
+        margin-left: 400px;
+       
+    }
+    
+
+}
+/*Small Devices*/
+@media(min-width:768px) and (max-width:991px){
+    #ourmenu{
+        width: 25%;
+        margin-left: 270px;
+       
+    }
+    
+
+}
+/*Extra Small Devices*/
+@media(max-width:767){
+    #ourmenu{
+        width: 50%;
+        margin-left: 50px;
+       
+    }
+    
+
+}
